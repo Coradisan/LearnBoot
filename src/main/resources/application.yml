@@ -1,0 +1,13 @@
+
+#  mvc:
+#    view:
+#      prefix: /resources/templates/
+#      suffix: .html
+
+
+  db:
+   testDB:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/test
+    username: root
+    password: root

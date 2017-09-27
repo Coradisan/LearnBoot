@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="header">
+    <meta charset="UTF-8"/>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" th:href="@{/static/1.jpg}" type="image/gif"/>
+    <link rel="stylesheet" th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.cs}"/>
+    <script th:src="@{https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js}"></script>
+    <script th:src="@{https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js}"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+
+        <table class="table table-striped table-bordered  table-hover table-condensed">
+            <thead class="thead">
+            <tr>
+                <!--<th>searchFlightId</th>-->
+                <!--<th>flightId</th>-->
+                <th>请求</th>
+                <th>航司</th>
+                <th>起飞</th>
+                <th>到达</th>
+
+                <th>航班号</th>
+                <th>请求类型</th>
+                <th>航程时间</th>
+                <th>价格</th>
+
+                <th>resultCode</th>
+                <th>接口用时</th>
+                <th>请求时间</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!--<tr th:each="user : ${list}">
+                &lt;!&ndash;<td th:text="${user.searchFlightId}"></td>&ndash;&gt;
+                &lt;!&ndash;<td th:text="${user.flightId}"></td>&ndash;&gt;
+                <td th:text="${user.reqId}"></td>
+                <td th:text="${user.carrier}"></td>
+                <td th:text="${user.departure}"></td>
+                <td th:text="${user.arriver}"></td>
+
+                <td th:text="${user.flightNum}"></td>
+                <td th:text="${user.entityType}"></td>
+                <td th:text="${user.dateTimes}"></td>
+                <td th:text="${user.entityId}"></td>
+
+                <td th:text="${user.resultCode}"></td>
+                <td th:text="${user.usetimes}"></td>
+                <td th:text="${user.times}"></td>
+            </tr>-->
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+</body>
+</html>
