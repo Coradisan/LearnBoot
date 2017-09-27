@@ -8,7 +8,7 @@ import javax.jms.*;
 public class ActiveMQTest {
 
     private static String URL = "tcp://127.0.0.1:61616";
-    private static String QUEUE_NAME = "刘佳晨的消息队列";
+    private static String QUEUE_NAME = "刘佳晨的消息队列 ";
 
     public static void main(String[] args) throws Exception {
         customerTest();
