@@ -1,7 +1,6 @@
 package com.learn.jms;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
-import org.junit.jupiter.api.Test;
 
 import javax.jms.*;
 
@@ -14,7 +13,6 @@ public class ActiveMQTest {
         customerTest();
 //        proTest();
     }
-
 
 
     public static void proTest() throws Exception {

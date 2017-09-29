@@ -23,4 +23,5 @@
     </bean>
 
     <bean id="SpringProducer" class="com.learn.jms.SpringProducer"/>
+    <bean id="SpringCustomer" class="com.learn.jms.SpringCustomer"/>
 </beans>

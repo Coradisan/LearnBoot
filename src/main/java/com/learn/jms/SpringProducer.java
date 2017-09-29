@@ -1,6 +1,5 @@
 package com.learn.jms;
 
-import org.apache.activemq.command.ActiveMQQueue;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
@@ -21,8 +20,6 @@ public class SpringProducer {
             @Override
             public Message createMessage(Session session) throws JMSException {
                 TextMessage textMessage = session.createTextMessage(msg);
-//                MessageProducer producer = session.createProducer(destination);
-//                producer.send(textMessage);
                 return textMessage;
             }
         });
